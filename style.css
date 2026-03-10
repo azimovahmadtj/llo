@@ -1,6 +1,9 @@
 *{
     margin: 0px;
 }
+body{
+    background-color:beige;
+}
 .main{
     
     align-items: center;
@@ -26,6 +29,39 @@
 width: 100px;
 background-color: white;
 }
+.start{
+    width: 100%;
+    height: 690px;
+    /* background-color: yellow; */
+}
+.sell{
+    width: 400px;
+    height: 220px;
+    /* background-color: aqua; */
+    padding-top: 45px;
+    margin-left: 360px;
+}
+.sell p{
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+.sell input{
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.sell button{
+    height: 35px;
+    background-color: blueviolet;
+    border:none;
+    color: white;
+}
+.sell img{
+    margin-top: 50px;
+    margin-left: -100px;
+    height: 590px;
+}
 @media(max-width:500px){
 
     .menu{
@@ -35,6 +71,19 @@ background-color: white;
 justify-content: space-between
     }
     .log p{
+        display: none;
+    }
+    .sell{
+        margin-left: 0px;
+    }
+    .sell img{
+        width: 100%;
+        margin-left: 25px;
+    }
+    .sell input{
+        display: none;
+    }
+    .sell button{
         display: none;
     }
 }
