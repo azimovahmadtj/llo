@@ -165,9 +165,45 @@ td:first-child{
 thead th{
     font-weight:700;
 }
+.merchants{
+    width: 100%;
+    height: 600px;
+    /* background-color: green; */
+}
+.merchants h1{
+    text-align: center;
+    padding-top: 45px;
+    font-family: 'Roboto',sans-serif;
+
+}
+.rekk{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    /* background-color: yellow; */
+}
+.c1{
+    margin-top: 20px;
+    width: 320px;
+    height: 80%;
+    background-color: aqua;
+    margin-left: 15px;
+}
+
+.k2{
+    margin-top: 100px;
+}
 @media(max-width:500px){
 .container{
     display: none;
+}
+.merchants{
+    margin-top: 300px;
+}
+.rekk{
+    gap: 30px;
+    margin-top: 0px;
+    flex-direction: column;
 }
 .table{
     display: none;
