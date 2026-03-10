@@ -255,4 +255,13 @@ justify-content: space-between
    .track{
     margin-top: 82px;
    }
+.partners{
+    gap: 30px;
+    margin-top: 900px;
+    flex-direction: column;
+}
+.partners img{
+    width: 50%;
+    margin-left: 45px;
+}
 }
