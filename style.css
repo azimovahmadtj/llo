@@ -98,6 +98,11 @@ background-color: white;
 padding-top: 25px;
 color: blueviolet;
 }
+.sec3{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 60px;
+}
 @media(max-width:500px){
 
     .menu{
